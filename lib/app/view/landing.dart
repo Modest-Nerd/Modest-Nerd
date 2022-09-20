@@ -110,7 +110,7 @@ class Landing extends StatelessWidget {
                       child: GestureDetector(
                         onTap: () {
                           window.open(
-                            'mailto:iamngoni@modestnerd.co',
+                            'mailto:iamngoni@modestnerd.co?bcc=imngonii@gmail.com',
                             'new tab',
                           );
                         },
