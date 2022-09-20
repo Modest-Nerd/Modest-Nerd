@@ -23,6 +23,7 @@ class App extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch(
           accentColor: const Color(0xFF1F2025),
         ),
+        fontFamily: 'Poppins',
       ),
       localizationsDelegates: const [
         AppLocalizations.delegate,
