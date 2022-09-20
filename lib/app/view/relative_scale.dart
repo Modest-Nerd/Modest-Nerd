@@ -25,11 +25,11 @@ class _RelativeBuilderState extends State<RelativeBuilder> {
   double get _screenHeight => _size.height;
   double get _screenWidth => _size.width;
 
-  double sx(double value) {
+  double sy(double value) {
     return (_screenHeight * _calculate(value)).roundToDouble();
   }
 
-  double sy(double value) {
+  double sx(double value) {
     return (_screenWidth * _calculate(value)).roundToDouble();
   }
 
