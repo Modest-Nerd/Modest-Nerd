@@ -16,6 +16,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'ModestNerd Developers',
       theme: ThemeData(
         primaryColor: const Color(0xFF1F2025),
         backgroundColor: const Color(0xFF1F2025),
