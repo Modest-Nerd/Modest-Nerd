@@ -32,7 +32,7 @@ class NormalScreen extends StatelessWidget {
             children: [
               RichText(
                 text: TextSpan(
-                  text: "Hi human! We're ",
+                  text: "Hi human\u{2764} We're ",
                   style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.w600,
@@ -43,7 +43,7 @@ class NormalScreen extends StatelessWidget {
                     TooltipSpan(
                       message: 'Bunch of Gloried Typists',
                       inlineSpan: TextSpan(
-                        text: 'ModestNerd Developers',
+                        text: 'Modest Nerds',
                         style: TextStyle(
                           color: const Color(0xFFEF4F00),
                           fontWeight: FontWeight.w600,
@@ -69,7 +69,7 @@ class NormalScreen extends StatelessWidget {
               ),
               RichText(
                 text: TextSpan(
-                  text: 'We are able to assist both small and large businesses'
+                  text: 'We assist both small and large businesses'
                       ' in developing ground-breaking products that aid '
                       'in their ability to expand, innovate, change,'
                       ' and maintain a competitive advantage by combining'
@@ -98,7 +98,7 @@ class NormalScreen extends StatelessWidget {
                 children: [
                   Expanded(
                     child: Text(
-                      '© ${DateTime.now().year} ModestNerd Developers.',
+                      '© ${DateTime.now().year} ModestNerds.',
                       style: TextStyle(
                         color: Colors.white.withOpacity(0.8),
                         fontWeight: FontWeight.w400,
