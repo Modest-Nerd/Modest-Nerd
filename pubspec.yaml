@@ -33,7 +33,6 @@ flutter:
 
   assets:
     - assets/images/
-    - assets/icons/
 
   fonts:
     - family: Poppins
@@ -59,4 +58,4 @@ flutter:
 
 flutter_native_splash:
   color: "#1F2025"
-  image: assets/images/Logo.png
+  image: assets/images/logo.png
